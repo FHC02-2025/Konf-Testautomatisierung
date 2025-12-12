@@ -10,6 +10,14 @@ public class Rectangle {
         this.b = b;
     }
 
+    public int getA() {
+        return a;
+    }
+
+    public int getB() {
+        return b;
+    }
+
     /**
      * berechne den Umfang
      * @return
