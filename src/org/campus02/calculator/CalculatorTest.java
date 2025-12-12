@@ -27,4 +27,13 @@ class CalculatorTest {
         int res = Calculator.multiply(3,2);
         Assertions.assertEquals(6, res);
     }
+
+    @Test
+    void isEquals() {
+        // exercise -> erwartung true
+
+        //boolean isEqualsResult = Calculator.isEquals(2,2);
+        //Assertions.assertTrue(isEqualsResult);
+        Assertions.assertTrue(Calculator.isEquals(2,2));
+    }
 }
